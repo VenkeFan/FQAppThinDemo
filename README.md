@@ -4,7 +4,9 @@ iOS瘦身实战
 
 参考链接：
 https://juejin.im/post/5d6482b0e51d456209238885
+
 https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=207986417&idx=1&sn=77ea7d8e4f8ab7b59111e78c86ccfe66&3rd=MzA3MDU4NTYzMw==&scene=6#rd
+
 https://blog.csdn.net/olsQ93038o99S/article/details/100680143
 
 __objc_classrefs 是引用到的类， __objc_classname 是所有类名，通过分析两者之间的差别，就可以知道哪些类没有用到。
@@ -25,9 +27,9 @@ __objc_classrefs 是引用到的类， __objc_classname 是所有类名，通过
 	0000000100005480  __TEXT:__objc_methname:role
 	0000000100005488  __TEXT:__objc_methname:initWithName:sessionRole:
 
-	对比 FQAppThinDemo-LinkMap-normal-x86_64.txt 文件中的：
+	对比 FQAppThinDemo-LinkMap-normal-x86_64.txt
 
-	# Sections: 部分：
+	文件中的 # Sections: 部分：
 	0x100005468	0x00000028	__DATA	__objc_selrefs
 
 	以及 # Symbols: 部分：
